@@ -35,7 +35,7 @@
             class="flex justify-between items-center bg-[#F4F7FF] h-[64px] w-[112px] rounded-3xl px-4"
           >
             <div><img src="assets/checkbox.png" /></div>
-            <p class="text-3xl font-bold">23</p>
+            <p id="nav_task" class="text-3xl font-bold">23</p>
           </div>
           <div>
             <button class="bg-[#F4F7FF] rounded-full">
@@ -61,7 +61,7 @@
                 </div>
                 <div>
                   <p>Task Assigned</p>
-                  <p class="text-3xl font-bold">05</p>
+                  <p id="task_n" class="text-3xl font-bold">06</p>
                 </div>
               </div>
               <button id="discover_btn" class="col-span-2 rounded-2xl bg-gradient-to-r from-[#3752FD] to-[#9BA8F8] flex gap-8 items-center" >
@@ -115,7 +115,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                      id="completed-1" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl "
                     >
                       Completed
                     </button>
@@ -147,7 +147,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                       id="completed-2" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl " 
                     >
                       Completed
                     </button>
@@ -180,7 +180,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                    id="completed-3" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl completed"
                     >
                       Completed
                     </button>
@@ -213,7 +213,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                    id="completed-4" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl completed"
                     >
                       Completed
                     </button>
@@ -246,7 +246,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                    id="completed-5" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl completed"
                     >
                       Completed
                     </button>
@@ -279,7 +279,7 @@
                   </div>
                   <div>
                     <button
-                      class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl"
+                    id="completed-6" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl completed"
                     >
                       Completed
                     </button>
@@ -288,7 +288,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-[#ffffff] rounded-3xl">
+          <div  class="bg-[#ffffff] rounded-3xl">
             <div
               class="h-[128px] flex flex-col justify-center items-center gap-5 mt-3 border-b-2 border-dashed border-blue-200"
             >
@@ -296,10 +296,12 @@
                 <img src="assets/activity.png" />
                 <p class="text-xl">Activity Log</p>
               </div>
-              <button class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl">
+              <button id="clear_btn" class="px-5 py-3 bg-[#3752FD] text-[#ffffff] rounded-xl">
                 Clear History
               </button>
             </div>
+            <div id="container" class="h-[780px] "></div>
+
           </div>
         </div>
       </section>
